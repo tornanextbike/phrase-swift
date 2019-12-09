@@ -33,7 +33,7 @@
 		A602D1C4408A92642402B8C0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B267396D1F33F71E064F67A4 /* Pods_phrase_swift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_phrase_swift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E35D54F48BF68FDA8864D793 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		E3726430356E4F67318FE4E5 /* phrase_swift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = phrase_swift.podspec; path = ../phrase_swift.podspec; sourceTree = "<group>"; };
+		E3726430356E4F67318FE4E5 /* phrase_swift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = phrase_swift.podspec; path = ../phrase_swift.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
