@@ -1,0 +1,6 @@
+framework module phrase_swift {
+  umbrella header "phrase_swift-umbrella.h"
+
+  export *
+  module * { export * }
+}
