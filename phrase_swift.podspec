@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'phrase_swift'
-  s.version          = '0.2.0'
+  s.version          = '0.2.1'
   s.summary          = 'A swift port of Squares Phrase library.'
 
 # This description is used to generate tags and improve search results.
@@ -24,13 +24,13 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/tornanextbike/phrase-swift'
   s.license          = { :type => 'Apache-2.0', :file => 'LICENSE' }
   s.author           = { 'Jan Meier' => 'meier@nextbike.com' }
-  s.source           = { :git => 'https://github.com/tornanextbike/phrase-swift.git', :tag => s.version.to_s }
-  
+  s.source           = { :git => 'https://github.com/tornanextbike/phrase-swift.git', :tag => s.version }
+
   s.ios.deployment_target = '8.0'
-  
+
   s.swift_version = '5.0'
 
-  s.source_files = 'phrase_swift/**/*.swift'
+  s.source_files = 'phrase_swift/*.swift', 'phrase_swift/Extensions/*.swift'
 
   # s.resource_bundles = {
   #   'phrase_swift' => ['phrase_swift/Assets/*.png']
