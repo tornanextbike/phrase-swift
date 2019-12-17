@@ -32,7 +32,7 @@ public final class Phrase {
     // TODO: make it int 1
     public static let EOF: Character = Character(UnicodeScalar(0))
     
-    public func put(key: String, value: String) -> Phrase {
+    @discardableResult public func put(key: String, value: String) -> Phrase {
         guard keys.contains(key) else  {
             
             exit(34)

@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'torna_phrase_swift'
+  s.name             = 'phrase_swift'
   s.version          = '0.1.0'
   s.summary          = 'A swift port of Squares Phrase library.'
 
@@ -27,8 +27,10 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/tornanextbike/phrase-swift.git', :tag => s.version.to_s }
   
   s.ios.deployment_target = '8.0'
+  
+  s.swift_version = '5.0'
 
-  s.source_files = 'phrase_swift/*.swift'
+  s.source_files = 'phrase_swift/**/*.swift'
 
   # s.resource_bundles = {
   #   'phrase_swift' => ['phrase_swift/Assets/*.png']
