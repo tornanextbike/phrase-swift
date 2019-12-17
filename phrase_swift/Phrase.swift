@@ -1,3 +1,10 @@
+//
+//  NSMutableAttributedString+Extensions.swift
+//  Phrase_Swift
+//
+//  Created by Jan Meier on 09.12.19.
+//
+
 import UIKit
 
 
