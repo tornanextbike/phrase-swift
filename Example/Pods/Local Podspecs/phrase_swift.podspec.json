@@ -1,22 +1,26 @@
 {
   "name": "phrase_swift",
-  "version": "0.1.0",
-  "summary": "A short description of phrase_swift.",
+  "version": "0.2.2",
+  "summary": "A swift port of Squares Phrase library.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Jan Meier/phrase_swift",
+  "homepage": "https://github.com/tornanextbike/phrase-swift",
   "license": {
-    "type": "MIT",
+    "type": "Apache-2.0",
     "file": "LICENSE"
   },
   "authors": {
-    "Jan Meier": "jan@meier.wtf"
+    "Jan Meier": "meier@nextbike.com"
   },
   "source": {
-    "git": "https://github.com/Jan Meier/phrase_swift.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/tornanextbike/phrase-swift.git",
+    "tag": "0.2.2"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "phrase_swift/Classes/**/*"
+  "swift_version": "5.0",
+  "source_files": [
+    "phrase_swift/*.swift",
+    "phrase_swift/Extensions/*.swift"
+  ]
 }

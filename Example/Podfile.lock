@@ -1,27 +1,16 @@
 PODS:
-  - Nimble (7.3.4)
-  - phrase_swift (0.1.0)
-  - Quick (1.2.0)
+  - phrase_swift (0.2.2)
 
 DEPENDENCIES:
-  - Nimble (~> 7.0)
   - phrase_swift (from `../`)
-  - Quick (~> 1.2.0)
-
-SPEC REPOS:
-  trunk:
-    - Nimble
-    - Quick
 
 EXTERNAL SOURCES:
   phrase_swift:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Nimble: 051e3d8912d40138fa5591c78594f95fb172af37
-  phrase_swift: 50fecd3cf02a5468b21922e7fd258e7677e8fc26
-  Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
+  phrase_swift: 61db823464b4a5861836beda0e31e98fbc40f815
 
-PODFILE CHECKSUM: 54187698bd3cb14c2ea46e9edc6e5b0d92ce2042
+PODFILE CHECKSUM: ca9ebd24444100e22eadfc44235885b13718efde
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.6.1
