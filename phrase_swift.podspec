@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'phrase_swift'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'A swift port of Squares Phrase library.'
 
 # This description is used to generate tags and improve search results.
