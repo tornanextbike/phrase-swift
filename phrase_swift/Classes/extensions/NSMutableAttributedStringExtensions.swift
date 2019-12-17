@@ -8,6 +8,7 @@
 import Foundation
 
 extension NSMutableAttributedString {
+    
     func replace(start: Int, end: Int, toReplaceWith: String) {
         let range = NSMakeRange(start, end - start)
         self.deleteCharacters(in: range)
