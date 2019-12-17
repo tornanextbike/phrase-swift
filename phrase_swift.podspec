@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/tornanextbike/phrase-swift'
   s.license          = { :type => 'Apache-2.0', :file => 'LICENSE' }
   s.author           = { 'Jan Meier' => 'meier@nextbike.com' }
-  s.source           = { :git => 'https://github.com/nextbike/phrase-swift.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/tornanextbike/phrase-swift.git', :tag => s.version.to_s }
   
   s.ios.deployment_target = '8.0'
 
