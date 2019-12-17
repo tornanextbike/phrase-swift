@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'phrase_swift'
+  s.name             = 'torna_phrase_swift'
   s.version          = '0.1.0'
   s.summary          = 'A swift port of Squares Phrase library.'
 
